@@ -1,16 +1,17 @@
 :root {
-  --base-bg: #CEE2DC;
-  --base-color: #00005a;
-  --a-color: #00005a;
-  --a-color--hover: #004b5a;
+  --clr-base-bg: #CEE2DC;
+  --clr-base-color: #00005a;
+  --clr-a-color: #00005a;
+  --clr-a-color--hover: #004b5a;
+  --clr-img-hello-stroke: yellow;
   
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: monospace, ui-monospace, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: var(--base-color);
-  background: var(--base-bg);
+  color: var(--clr-base-color);
+  background: var(--clr-base-bg);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,11 +21,11 @@
 
 a {
   font-weight: 500;
-  color: var(--a-color);
+  color: var(--clr-a-color);
   text-decoration: inherit;
 }
 a:hover {
-  color: var(--a-color--hover);
+  color: var(--clr-a-color--hover);
 }
 
 html {
