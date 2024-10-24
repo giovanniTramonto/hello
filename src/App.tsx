@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import ProfileImage from './assets/profile-image-blue.jpg';
 
 function App() {
