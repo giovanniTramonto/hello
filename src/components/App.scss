@@ -6,6 +6,13 @@
   height: 100%;
 }
 
+.button {
+  color: var(--clr-a-color);
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
 .image-hello {
   display: block;
   line-height: 0;
