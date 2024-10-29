@@ -20,10 +20,10 @@ export default function TechStack() {
     }
   }, [isPaused])
   return (<>
-    <button className="button" onClick={() => setIsPaused(!isPaused)}>See what I can do</button>
-    <ul className="list">
+    <button className="text-2xl md:text-4xl self-start" onClick={() => setIsPaused(!isPaused)}>See what I can do</button>
+    <ul className="flex flex-wrap">
       {React.Children.map(techStack, (child, index) => {
-        return <li className='list__item' id={`${index}`}>{child}</li>;
+        return <li className='p-2.5 white-space-nowrap bg-pink' style={{ clipPath: 'polygon(0 5%, 95% 0, 100% 100%, 0 95%)' }} id={`${index}`}>{child}</li>;
       })}
     </ul>
   </>);
