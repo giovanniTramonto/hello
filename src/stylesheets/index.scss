@@ -1,4 +1,4 @@
-@use 'utils/include-media';
+// @use 'utils/include-media';
 
 :root {
   --clr-base-bg: #CEE2DC;
@@ -6,6 +6,7 @@
   --clr-a-color: #00005a;
   --clr-a-color--hover: #004b5a;
   --clr-img-hello-stroke: yellow;
+  --clr-list-item-bg: #d245ea;
   
   font-family: monospace, ui-monospace, sans-serif;
   line-height: 1.5;

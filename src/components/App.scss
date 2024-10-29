@@ -12,10 +12,11 @@
   width: 800px;
   height: auto;
   margin: -60px 0 0 -100px;
-}
-.image-hello path {
-  stroke: var(--clr-img-hello-stroke);
-  stroke-width: 6;
+  
+  path {
+    stroke: var(--clr-img-hello-stroke);
+    stroke-width: 6;
+  }
 }
 
 .image-profile {
@@ -24,6 +25,17 @@
   line-height: 0;
   height: 10rem;
   width: 10rem;
+}
+
+.list {
+  display: flex;
+  
+  &__item {
+    padding: 10px;
+    white-space: nowrap;
+    background-color: var(--clr-list-item-bg);
+    clip-path: polygon(0 5%, 95% 0, 100% 100%, 0 95%);
+  }
 }
 
 .page {
